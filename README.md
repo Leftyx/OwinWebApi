@@ -1,18 +1,18 @@
 OwinWebApi
 ==========
 
-Demonstrate the use of WebApi with Owin (minimum requirements)
+Demonstrate the use of WebApi with Owin <em>(minimum requirements)</em>
 
 
-OWIN + WEB.API
+Owin + Web.Api
 
-Microsoft.AspNet.WebApi.Client
-Microsoft.AspNet.WebApi.Core
-Microsoft.AspNet.WebApi.Owin
-Microsoft.Owin
-Owin
+- Microsoft.AspNet.WebApi.Client
+- Microsoft.AspNet.WebApi.Core
+- Microsoft.AspNet.WebApi.Owin
+- Microsoft.Owin
+- Owin
 
-Newtonsoft.Json
+- Newtonsoft.Json
 
-Microsoft.Owin.Diagnostics      (only if you want to enable diagnostics)
-Microsoft.Owin.Host.SystemWeb   (to host web.api in IIS)
+- Microsoft.Owin.Diagnostics      <em>(only if you want to enable diagnostics)</em>
+- Microsoft.Owin.Host.SystemWeb   <em>(to host web.api in IIS)</em>
