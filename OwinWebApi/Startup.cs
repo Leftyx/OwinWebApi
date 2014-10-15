@@ -12,7 +12,6 @@ namespace OwinWebApi
     {
         public void Configuration(IAppBuilder app)
         {
-            // Configure Web API for self-host. 
             HttpConfiguration config = new HttpConfiguration();
 
             //  Enable attribute based routing
