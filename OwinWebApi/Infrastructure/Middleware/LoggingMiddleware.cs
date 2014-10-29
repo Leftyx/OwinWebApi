@@ -17,7 +17,12 @@ namespace OwinWebApi.Infrastructure.Middleware
         public async override Task Invoke(IOwinContext context)
         {
             Console.WriteLine("Begin Request");
+
+            HttpContextBase httpContext = context.Get<HttpContextBase>(typeof(HttpContextBase).FullName);
+            HttpRequestBase httpRequest = httpContext.Request;
+
             await Next.Invoke(context);
+            
             Console.WriteLine("End Request");
         }
     }
